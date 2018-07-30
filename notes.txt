@@ -1,0 +1,102 @@
+have been working on Ring for 4 months as part of my internship at Savoir-Faire Linux
+and thought it would be interesting to speak a bit about this experience at DebConf.
+
+So the goal of this talk is present Ring and quickly go over what it does. However
+instead of usual like user pov talk I'm going to change a little bit and present it
+from developer's pov.
+
+-> NOT going to speak about why I consider it to be important to use free communication
+software such as Ring, I'm not going to be able to do everything in 20mn :)
+
+-> Also, I'll not really show how to use Ring or do some extensive list of available
+features
+
+I'd like to present some of the challenges you face when you're a Ring developer,
+how interesting they are and...
+
+why you really want to work on this project :)
+
+
+-------------------
+
+
+...
+
+it's developed by SFL, and I think it's really interesting to see that companies,
+private companies integrate free, open source software in they business model like that
+
+so lots of things, and in general it's getting pretty stable and it has really gained
+some maturity over the last years
+
+I'm not going to make a large demo, if you want to come over and try it afterwards
+I'll be happy to do so
+
+anyways yesterday evening I lighted a candle to counter the demonstration effects,
+it's going to work :)
+
+
+
+-------------------
+
+
+So of course some things are still missing, there are some bugs, and this talk is exactly
+about that actually, about the challenges :)
+
+
+-------------------
+
+
+For example, let's speak about usernames.
+
+Can you remember that ? It's my RingID. This is used to identify accounts and in this
+case it's the fingerprint of my public key.
+
+
+-------------------
+
+
+of course not
+
+
+-------------------
+
+
+so, we introduced the username. It's separate feature from the DHT and the core of Ring,
+and I think it's a very interesting example of challenges because this kind of things is
+always hard to do in a distributed and secure way.
+
+
+-------------------
+
+
+so what we did is we introduced an Ethereum blockchain which does username to ringID mappings
+via a REST API
+
+so, it's a blockchain, it's magic, so, it's distribuyted, right ?
+
+well, I'm not a blockchain expert, but I can say it depends on the type of blockchain
+you're using...
+
+
+-------------------
+
+
+we can't choose a public blockchain because we can't let any random people operate the registar
+
+in this case it's a consortium blockchain, so only a restricted group of organizations chosen
+by the Ring project are going to be able to operate the registar
+
+good tradeoff between private and public blockchain and it has almost the capabilities we wan't :)
+
+i say almost because well in this case the only member of this consortium is savoir faire linux
+so we can still make some steps towards distribution :)
+
+the point is, it's going to be a real hard choice to find orgas willing to help on these duties.
+those are entities we really have to trust ! So, this is still an open question, and if you know
+some trustable arga which would fit, then i'd be happy to hear about them :)
+
+
+-------------------
+
+
+
