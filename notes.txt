@@ -95,8 +95,41 @@ the point is, it's going to be a real hard choice to find orgas willing to help 
 those are entities we really have to trust ! So, this is still an open question, and if you know
 some trustable arga which would fit, then i'd be happy to hear about them :)
 
+so, that was just a small example of the questions we face. Another one could be, believe me or
+not...
+
 
 -------------------
 
 
+emoji !
 
+what's interesting with emoji is that they manage it to be cute and break everything at the very
+same time. For example we encouter all kind of issues with webkitgtk which is handling V3 emoji
+pretty badly, or color fonts which are only supported on recent systems...
+
+We had really funny evenings debugging that, wondering why a hot dog followed by a taco emoji won't
+show up or, why the hell the fox emoji is breaking everything :)
+
+
+-------------------
+
+
+another this time non technical challenge which is faced by a lot of free software projects is...
+
+being open to external contributors !
+
+sometimes it doesn't work, and you wonder why nobody's contributing, even though you say you're
+open, and you publish a lot of photos of cute animals, so one and so forth, but...
+
+in fact it's not always a matter of pinguins and kitten
+
+
+-------------------
+
+
+so yeh, there are some things like the fact that we're a small team working full time on Ring, or
+the fact that we're using Gerrit for code review, some people have problems with that.
+
+Also, previously we used Tuleap for bug report, and we got lots of complains about that so we migrated to
+Gitlab.
